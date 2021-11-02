@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #195796;
+    color: white;
+    text-transform: capitalize;
+    
+}
+nav{
+    padding: none;
+    color: white;
+}
+
+h3{
+    width: 20%;
+    font-family: 'Roboto Mono', monospace;
+    float: left;
+    letter-spacing: 1px;
+    margin-bottom: none;
+}
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+.nav-link{
+    width: auto;
+    color: white;
+}
+.nav-link:hover{
+    color: white;
+}
+.bloackquote-footer{
+    color: white;
+}
+cite{
+    color: white;
+}
+.para1{
+    margin-top: 50px;
+    display: flex;
+    border-top: 1px solid white;
+}
+.subpara1, .subpara2{
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.04), 6px 6px 6px 6px rgba(0, 0, 0, 0.06);
+    margin-top: 10vh;
+    margin-left: 10vh;
+    height: 20vh;
+    width: 40%;
+}
+#p, #p2{
+    font-size: 60px;
+    width: 50%;
+}
+.part2{
+    margin-left: 20px;
+    width: 50%;
+    font-size: large;
+}
+.more{
+    display: inline-flex;
+}
+.para2{
+    margin-top: 10vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+.pic1, .pic2, .pic3{
+    margin-left: 5vh;
+    width: 15%;
+    height: auto;
+}
+.img-thumbnail{
+    margin-right: auto;
+    width: 30%;
+}
+.sub-para1{
+    margin-left: auto;
+    width: 50%;
+}
+.dropdown-menu{
+    position: absolute;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-item::active{
+    color: white;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+hr::hover, hr::active{
+    cursor: not-allowed;
+}
+figure{
+    padding-top: 30px;
+    letter-spacing: 1px;
+}
+.footer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+    letter-spacing: 1px;
+    font-family: 'Maven Pro', sans-serif;
+}
+i{
+    font-size: x-large;
+    margin-left: 15px;
+}
+@media only screen and (max-width: 900px) {
+    body{
+        background-color: #195796;
+        color: white;
+    }
+    .img-thumbnail{
+        margin-right: auto;
+        max-width: 30%;
+        height: auto;
+    }
+}
