@@ -16,7 +16,7 @@ h3{
     width: 20%;
     font-family: 'Roboto Mono', monospace;
     float: left;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     margin-bottom: none;
 }
 .img-fluid{
@@ -47,8 +47,9 @@ cite{
     justify-content: center;
     box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.04), 6px 6px 6px 6px rgba(0, 0, 0, 0.06);
     margin-top: 10vh;
-    margin-left: 10vh;
-    height: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
     width: 40%;
 }
 #p, #p2{
@@ -77,7 +78,8 @@ cite{
 }
 .img-thumbnail{
     margin-right: auto;
-    width: 30%;
+    width: auto;
+    height: auto;
 }
 .sub-para1{
     margin-left: auto;
@@ -110,19 +112,80 @@ figure{
     padding: 5vh;
     letter-spacing: 1px;
     font-family: 'Maven Pro', sans-serif;
+    margin-top: 10vh;
 }
 i{
     font-size: x-large;
     margin-left: 15px;
 }
 @media only screen and (max-width: 900px) {
-    body{
-        background-color: #195796;
-        color: white;
+    h3{
+        letter-spacing: 1px;
+        font-size: large;
+    }
+    li{
+        font-size: small;
+    }
+    figure, cite{
+        font-size: small;
+    }
+    .para1{
+        margin-top: 50px;
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        border-top: 1px solid white;
+    }
+    .sub-para1{
+        font-size: 17px;
+        width: 100%;
+    }
+    .subpara1, .subpara2{
+        display: inline-flex;
+        text-align: center;
+        justify-content: center;
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.02), 3px 3px 3px 3px rgba(0, 0, 0, 0.04);
+        margin-top: 10vh;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        width: auto;
+    }
+    #p, #p2{
+        font-size: 40px;
+        width: 50%;
+    }
+    .part2{
+        margin-left: 20px;
+        width: 50%;
+        font-size: large;
+    }
+    .para2{
+        margin-top: 10vh;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: large;
+    }
+    .pic1, .pic2, .pic3{
+        margin-left: 5vh;
+        width: 15%;
+        height: auto;
     }
     .img-thumbnail{
         margin-right: auto;
-        max-width: 30%;
+        margin-left: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: auto;
         height: auto;
+    }
+    .more{
+        font-size: xx-small;
+    }
+    i{
+        margin-left: 2px;
+        font-size: large;
     }
 }
